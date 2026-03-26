@@ -740,7 +740,7 @@ footer { padding: 64px 0 32px; border-top: 1px solid var(--border); position: re
 
 <!-- ── NAV ────────────────────────────────────────── -->
 <nav id="navbar">
-  <a href="#hero" class="nav-logo"><img src="/Logo.svg" alt="CinexAI" style="height:32px;width:auto;display:block"></a>
+  <a href="#hero" class="nav-logo"><img src="/Logo.svg" alt="CinexAI" style="height:52px;width:auto;display:block"></a>
   <ul class="nav-links">
     <li><a href="#features">Product</a></li>
     <li><a href="#usecases">Use Cases</a>
@@ -1165,6 +1165,78 @@ footer { padding: 64px 0 32px; border-top: 1px solid var(--border); position: re
   </div>
 </section>
 
+<!-- ── TESTIMONIALS ───────────────────────────────── -->
+<section id="testimonials">
+  <div class="container">
+    <div class="features-header reveal">
+      <div class="section-tag">Client Stories</div>
+      <h2 class="section-title">What brands say<br><span class="orange-text">after using CinexAI.</span></h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"CinexAI cut our content production time by 80%. What used to take 3 weeks from brief to delivery now happens in 2 days — and the quality is better."</p>
+        <div class="testi-author"><div class="testi-avatar">A</div><div><div class="testi-name">Coming Soon</div><div class="testi-role">Marketing Director · Brand Partner</div></div></div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"The AI Project Manager is a game changer. It knows our brand better than most junior team members. Every brief turns into exactly what we envisioned."</p>
+        <div class="testi-author"><div class="testi-avatar">B</div><div><div class="testi-name">Coming Soon</div><div class="testi-role">Creative Lead · Agency Partner</div></div></div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"We produced an entire TVC campaign — script, storyboard, visuals, voiceover, and Premiere assembly — in one sitting. This is the future of production."</p>
+        <div class="testi-author"><div class="testi-avatar">C</div><div><div class="testi-name">Coming Soon</div><div class="testi-role">Founder · Studio Partner</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ────────────────────────────────────────── -->
+<section id="faq">
+  <div class="container">
+    <div class="features-header reveal">
+      <div class="section-tag">FAQ</div>
+      <h2 class="section-title">Questions we<br><span class="orange-text">always get asked.</span></h2>
+      <p class="section-sub">Everything you need to know before booking a demo.</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)"><span>What exactly is CinexAI?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>CinexAI is an end-to-end AI-powered media production platform. It takes your brand from a creative brief all the way to a final deliverable — handling writing, image generation, video production, sound design, and post production in a single intelligent pipeline. Every client brand gets a dedicated AI Project Manager trained on their specific guidelines.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)"><span>Do I need any technical knowledge to use CinexAI?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>None at all. CinexAI is built for brand and marketing teams, not developers. You submit a brief, your AI Project Manager handles all the technical decisions — model selection, workflow configuration, prompt engineering — and your human creator oversees quality at each stage.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)"><span>How is my AI Project Manager trained on my brand?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>When you onboard, you upload your Brand Folder — guidelines, tone of voice, competitor list, reference campaigns, and visual assets. Your AI PM is trained specifically on this material. It also conducts live research on competitors and trends before every project. Over time, as you run more projects, it gets smarter about your brand automatically.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)"><span>How long does it take to produce a piece of content?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Significantly faster than traditional production. A 30-second commercial ad — from brief to final assembled edit — typically takes hours, not weeks. Social media content can be produced in under an hour. Timelines vary based on content complexity, revision rounds, and human creator review stages.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)"><span>What AI models power CinexAI?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>CinexAI integrates the best available tools for each task — including Claude for writing, FLUX and Kling for image generation, Google Veo 3, Runway Gen-4, Kling 2.1, and Minimax for video, and ElevenLabs for voiceover and sound. Your AI PM selects the most appropriate model for each project automatically.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)"><span>Is there a human involved in every project?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Yes. Every project has a dedicated human Creator who reviews and approves each stage — from synopsis to storyboard to final video. The AI does the heavy lifting; the Creator ensures quality, intervenes when needed, and signs off before anything reaches the client. AI speed + human judgment.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)"><span>Can I use CinexAI if I already have a production team?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Absolutely. CinexAI is built to amplify existing teams, not replace them. Your team can act as the human creators on the platform — overseeing AI output, making creative decisions, and using CinexAI to 10x their output capacity without proportionally increasing headcount or cost.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)"><span>What does the onboarding process look like?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>It starts with a 30-minute live demo where we walk through the platform with your team and run a real brief live. After that, onboarding typically takes 1–2 days — uploading your brand folder, configuring your AI PM, and running your first project end-to-end. We guide you through every step.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ── BOOK A DEMO ─────────────────────────────────── -->
 <section id="demo">
   <div class="container">
@@ -1257,7 +1329,7 @@ footer { padding: 64px 0 32px; border-top: 1px solid var(--border); position: re
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <div class="footer-logo"><img src="/Logo.svg" alt="CinexAI" style="height:36px;width:auto;display:block;margin-bottom:8px"></div>
+        <div class="footer-logo"><img src="/Logo.svg" alt="CinexAI" style="height:52px;width:auto;display:block;margin-bottom:8px"></div>
         <div class="footer-tagline">The AI media studio you need.</div>
       </div>
       <div class="footer-links">
