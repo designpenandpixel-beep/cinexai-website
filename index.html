@@ -749,6 +749,7 @@ footer { padding: 64px 0 32px; border-top: 1px solid var(--border); position: re
     <li><a href="#howitworks">How It Works</a></li>
     <li><a href="#pricing">Pricing</a></li>
     <li><a href="#about">About</a></li>
+    <li><a href="/login.html" class="nav-signin">Sign In</a></li>
     <li><a href="#demo" class="nav-cta">Book a Demo</a></li>
   </ul>
 </nav>
@@ -1537,6 +1538,25 @@ window.addEventListener('scroll', () => {
 @media(max-width:600px){
   .gallery-grid{grid-template-columns:1fr}
   .gallery-item-large{grid-column:span 1}
+}
+
+/* ── SIGN IN NAV BUTTON ── */
+.nav-signin {
+  font-family: var(--font-h);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.6) !important;
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 8px 20px;
+  border-radius: 4px;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  text-decoration: none !important;
+}
+.nav-signin:hover {
+  color: #fff !important;
+  border-color: rgba(255,107,53,0.5);
+  background: rgba(255,107,53,0.06);
 }
 </style>
 <script>
